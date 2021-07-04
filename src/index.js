@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const leviathanAxe = {
   handle: 1,
   hacksilver: 10,
