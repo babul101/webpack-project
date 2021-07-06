@@ -9,13 +9,23 @@ if (process.env.NODE_ENV === "production") {
 module.exports = {
   mode: mode,
   target: target,
+  output: {
+    assetModuleFilename: "images/[hash][ext][query]",
+  },
 
   module: {
     rules: [
       {
+        test: /\.(png|svg|jpe?g|gif)$/i,
+        type: "asset/resource",
+      },
+      {
         test: /\.s?css$/i,
         use: [
-          MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: { publicPath: "" },
+          },
           "css-loader",
           "postcss-loader",
           "sass-loader",
