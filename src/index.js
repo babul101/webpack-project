@@ -1,16 +1,4 @@
-import "./styles/index.scss";
+import { render } from "react-dom";
+import App from "./components/App";
 
-const leviathanAxe = {
-  handle: 1,
-  hacksilver: 10,
-  silverignot: 5,
-};
-
-const bladeOfChaos = {
-  ...leviathanAxe,
-  bodyStripes: 4,
-  magicPotion: 3,
-};
-
-console.log(leviathanAxe);
-console.log(bladeOfChaos);
+render(<App />, document.getElementById("root"));
