@@ -3,4 +3,4 @@
 node_modules/
 
 #ignore the public folder
-/public
+public/
