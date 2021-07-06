@@ -1,3 +1,0 @@
-:root{--text: #222}body{margin:0;background-color:#a9a9a9;color:#222;color:var(--text)}main{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}button{font-size:1.5rem}ul{list-style-image:url(images/bda150e4b57abde59a13.png)}.hero{background:url(images/9c5f9bb919c0dacea151.jpg);background-size:cover;background-position:center;min-height:300px;width:100%}
-
-/*# sourceMappingURL=main.css.map*/
