@@ -1,2 +1,6 @@
-node_modules
-public/
+# ignore the node modules folder
+
+node_modules/
+
+#ignore the public folder
+/public
